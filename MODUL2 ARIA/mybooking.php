@@ -52,7 +52,7 @@
 <body>
 <?php
     $nobooking = rand(100000000,199999999);
-    $nama = $_POST['nama'];
+    $nama = $POST['nama'];
     $cekin = $_POST['cekin'];
 
     $date = $cekin;
@@ -97,7 +97,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><?= $nobooking ?></td>
+        <td>$nobooking ?></td>
         <td><?= $nama ?></td>
         <td><?= $cekin ?></td>
         <td><?= $cekout->format("Y-m-d"); ?></td>

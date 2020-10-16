@@ -120,7 +120,7 @@
           </div>
         </div>
         <div class="card-body text-center" style="background-color:#F7F7F7; ">
-          <form action="booking.php" method="POST"><button type=" submit" class="btn btn-primary" name="cek"
+          <form actions="booking.php" method="POST"><button type=" submit" class="btn btn-primary" name="cek"
               value="Superior">Book
               Now</button>
           </form>
@@ -160,7 +160,7 @@
           </div>
         </div>
         <div class="card-body text-center" style="background-color:#F7F7F7; ">
-          <form action="booking.php" method="POST"><button type=" submit" class="btn btn-primary" name="cek"
+          <form action="booking.php" method="GET"><button type=" submit" class="btn btn-primary" name="cek"
               value="Luxury">Book
               Now</button>
           </form>
