@@ -1,0 +1,74 @@
+/* Body */
+
+/* Navbar */
+.navbar{
+    background-color: #0076B5;
+}
+
+/*Content*/
+.cardkiri{
+    height: 530px;
+}
+
+.content{
+    margin-top: 80px;
+}
+.content #hhome{
+    color: #0076B5;
+    text-align: center;
+}
+
+/* HALAMAN BUAT EVENT */
+#hbuat{
+    color: #0076B5;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+.row.rowcard{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.jam{
+    width: 293px;
+    margin-left: 15px;
+}
+
+.card-header.kiri{
+    background-color: #DC3545;
+}
+
+.card-header.kanan{
+    background-color: #007BFF;
+}
+
+.button{
+    float: right;
+    
+}
+
+.buttonkiri{
+    margin-right: 10px;
+}
+.buttonkanan{
+    margin-right: 15px;
+}
+
+/* HALAMAN DETAIL EVENT */
+
+.carddetail{
+width: 45rem;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+#kolom1{
+    width: 50%;
+}
