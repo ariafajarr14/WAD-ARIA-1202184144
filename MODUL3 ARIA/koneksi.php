@@ -2,12 +2,12 @@
 //koneksi ke database
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "  ";
+$dbpass = "";
 $dbname = "wad_modul3_aria";
 
-$conn = mysql_connect($dbhost, $dbuser,  $dbname, $dbpass);
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-if ($conn) {
+if (!$conn) {
     die("Gagal terhubung dengan database: " . mysqli_connect_error());
 }
 ?>
