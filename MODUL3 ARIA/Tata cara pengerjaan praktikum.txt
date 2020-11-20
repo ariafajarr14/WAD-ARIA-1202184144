@@ -1,0 +1,12 @@
+1. Lakukanlah debugging pada studi kasus yang telah dirubah jika 
+2. Kerjakan audit pada file yang telah diberikan
+3. Kerjakan kedua itu dengan waktu 40 menit termasuk pengumpulan
+4. kumpulkan hasil penegerjaan nomor 1 dan 2 dengan cara push ke github
+
+Note* untuk achmad-1202184133 debugging diganti dengan menyelesaikan studi kasus sebisanya.
+
+copy aj biar cepat:
+
+git add *
+git commit -m "pengerjaan minggu 3"
+git push origin master
