@@ -148,4 +148,5 @@ if (isset($_SESSION['email'])) {
 
 </body>
 
+<?php session_destroy(); ?>
 </html>

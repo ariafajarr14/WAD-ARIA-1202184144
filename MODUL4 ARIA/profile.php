@@ -17,7 +17,7 @@ if (!empty($_COOKIE['navbar'])) {
     $navbar = 'light';
 }
 
-if (isset($_SESSION['email'])) {
+if (!isset($_SESSION['email'])) {
     $profile_show = profile_show();
 
     if (isset($_POST['update'])) {

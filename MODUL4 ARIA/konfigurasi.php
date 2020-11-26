@@ -1,6 +1,6 @@
 <?php
 if (!isset($_SESSION)) {
-    session_start();
+    session_destroy();
 }
 
 $conn = mysqli_connect("localhost", "root", "", "wad_modul4");
